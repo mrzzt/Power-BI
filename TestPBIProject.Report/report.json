@@ -1,0 +1,51 @@
+{
+  "config": "{\"version\":\"5.40\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY22SU11\",\"version\":\"5.40\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY22SU11",
+            "path": "BaseThemes/CY22SU11.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSectione2ba421c1cf9319df0f0",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1a326a18b9bec17e53b1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":831.9476268412438,\"y\":220.36006546644845,\"z\":1000,\"width\":279.2798690671031,\"height\":279.2798690671031,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"All-Products-Table.product\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"All-Products-Table\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"product\"},\"Name\":\"All-Products-Table.product\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"All-Products-Table\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"product\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Product 1'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 279.28,
+          "width": 279.28,
+          "x": 831.95,
+          "y": 220.36,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"402ed55c47aab3c748e8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":428.93617021276594,\"y\":220.36006546644845,\"z\":0,\"width\":280.45826513911624,\"height\":280.45826513911624,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"Error-Table.uid\",\"active\":true},{\"queryRef\":\"Error-Table.product\"}],\"Columns\":[{\"queryRef\":\"Error-Table.attribute\",\"active\":true}],\"Values\":[{\"queryRef\":\"All-Products-Table.Measure\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Error-Table\",\"Type\":0},{\"Name\":\"a\",\"Entity\":\"All-Products-Table\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"uid\"},\"Name\":\"Error-Table.uid\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"attribute\"},\"Name\":\"Error-Table.attribute\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"product\"},\"Name\":\"Error-Table.product\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Measure\"},\"Name\":\"All-Products-Table.Measure\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"total\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 280.46,
+          "width": 280.46,
+          "x": 428.94,
+          "y": 220.36,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
