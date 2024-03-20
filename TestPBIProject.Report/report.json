@@ -27,12 +27,12 @@
       "name": "ReportSectione2ba421c1cf9319df0f0",
       "visualContainers": [
         {
-          "config": "{\"name\":\"1a326a18b9bec17e53b1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":831.9476268412438,\"y\":220.36006546644845,\"z\":1000,\"width\":279.2798690671031,\"height\":279.2798690671031,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"All-Products-Table.product\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"All-Products-Table\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"product\"},\"Name\":\"All-Products-Table.product\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"All-Products-Table\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"product\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Product 1'\"}}]]}}}]}}}}]}}}",
+          "config": "{\"name\":\"1a326a18b9bec17e53b1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":420.29556650246303,\"y\":360,\"z\":1000,\"width\":279.3103448275862,\"height\":278.42364532019707,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"All-Products-Table.product\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"All-Products-Table\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"product\"},\"Name\":\"All-Products-Table.product\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"All-Products-Table\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"product\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Product 2'\"}}]]}}}]}}}}]}}}",
           "filters": "[]",
-          "height": 279.28,
-          "width": 279.28,
-          "x": 831.95,
-          "y": 220.36,
+          "height": 278.42,
+          "width": 279.31,
+          "x": 420.30,
+          "y": 360.00,
           "z": 1000.00
         },
         {
